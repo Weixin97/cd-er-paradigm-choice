@@ -16,7 +16,7 @@ open the corresponding notebook and run all cells.
 | `06_schema_poverty_ablation_ditto.ipynb` | Sec. 4.6, Table 12 (SFT column) | Ditto warm-start K=100 across the same ladder. Also contains contamination-test cells (Table 13). |
 | `07_triangle_violation_test.ipynb` | Sec. 4.7, Table 14 | Triangle-violation rate on WDC-Watches multi-record clusters. |
 | `08_llm_lora_finetune.ipynb` | Sec. 4.4.1, Table 8 | LLM LoRA K=100 fine-tuning on Llama-3.1-8B across P1–P4. |
-| `09_matchgpt_k10_sub_analysis.ipynb` | Supplementary B | K=2 vs K=10 sub-analysis on Llama-3.3-70B. |
+| `09_matchgpt_k10_sub_analysis.ipynb` | Sec. 4.2 sub-analysis | K=2 vs K=10 sub-analysis on Llama-3.3-70B (per-cell metrics referenced from §4.2). |
 
 ## Note on Ditto SFT baselines
 
