@@ -1,0 +1,20 @@
+{
+  "method": "cider_k2",
+  "backbone": "llama-3.3-70b",
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "source_dataset": "wdc/computers",
+  "target_dataset": "wdc/watches",
+  "seed": 42,
+  "n_test_pairs": 1012,
+  "positive_rate": 0.2707509881422925,
+  "elapsed_sec": 551.2982232570648,
+  "api_latency_sec": 355.4473616619998,
+  "prompt_tokens_total": 274323,
+  "completion_tokens_total": 2024,
+  "prompt_tokens_mean": 271.0701581027668,
+  "completion_tokens_mean": 2.0,
+  "test_f1": 0.9185185185185184,
+  "test_precision": 0.9323308270676691,
+  "test_recall": 0.9051094890510949,
+  "returncode": 0
+}

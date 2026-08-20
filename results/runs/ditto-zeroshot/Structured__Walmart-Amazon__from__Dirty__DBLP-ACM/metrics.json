@@ -1,0 +1,15 @@
+{
+  "method": "ditto-zeroshot",
+  "source": "Structured/Walmart-Amazon",
+  "target": "Dirty/DBLP-ACM",
+  "source_checkpoint": "/content/drive/MyDrive/slr-experiment/models/checkpoints/Structured/Walmart-Amazon-kfull-s42/Structured/Walmart-Amazon-kfull-s42/model.pt",
+  "lm": "roberta",
+  "max_len": 180,
+  "elapsed_sec": 74.08143305778503,
+  "n_examples": 2473,
+  "n_positive_labels": 444,
+  "n_positive_preds": 439,
+  "test_f1": 0.840317100792752,
+  "test_precision": 0.8451025056947609,
+  "test_recall": 0.8355855855855856
+}

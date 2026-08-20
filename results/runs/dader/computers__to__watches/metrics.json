@@ -1,0 +1,11 @@
+{
+  "method": "dader-mmd",
+  "src": "computers",
+  "tgt": "watches",
+  "beta_mmd": 0.1,
+  "num_epochs": 15,
+  "batch_size": 32,
+  "test_f1": 0.8697473957262246,
+  "returncode": 0,
+  "elapsed_sec": 788.9314541816711
+}

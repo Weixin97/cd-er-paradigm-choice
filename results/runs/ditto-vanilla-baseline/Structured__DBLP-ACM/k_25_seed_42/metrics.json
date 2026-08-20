@@ -1,0 +1,23 @@
+{
+  "method": "ditto",
+  "dataset": "Structured/DBLP-ACM",
+  "k": 25,
+  "seed": 42,
+  "task": "Structured/DBLP-ACM-k25-s42",
+  "hparams": {
+    "lm": "roberta",
+    "batch_size": 32,
+    "max_len": 256,
+    "lr": 3e-05,
+    "n_epochs": 15,
+    "fp16": false,
+    "da": null,
+    "dk": null,
+    "summarize": false
+  },
+  "returncode": 0,
+  "elapsed_sec": 1126.249942779541,
+  "best_epoch": 1,
+  "dev_f1": 0.3044223517312307,
+  "test_f1": 0.3044223517312307
+}

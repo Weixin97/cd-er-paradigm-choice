@@ -1,0 +1,25 @@
+{
+  "method": "ditto-warmstart",
+  "source": "Structured/Walmart-Amazon",
+  "target": "Structured/DBLP-ACM",
+  "k": 10,
+  "seed": 456,
+  "task": "Structured/DBLP-ACM-k10-s456",
+  "source_checkpoint": "/content/drive/MyDrive/slr-experiment/models/checkpoints/Structured/Walmart-Amazon-kfull-s42/Structured/Walmart-Amazon-kfull-s42/model.pt",
+  "hparams": {
+    "lm": "roberta",
+    "batch_size": 32,
+    "max_len": 180,
+    "lr": 3e-05,
+    "n_epochs": 15,
+    "fp16": false,
+    "da": "del",
+    "dk": null,
+    "summarize": false
+  },
+  "returncode": 0,
+  "elapsed_sec": 1199.8558626174927,
+  "best_epoch": 1,
+  "dev_f1": 0.8291139240506329,
+  "test_f1": 0.8470588235294118
+}

@@ -1,0 +1,25 @@
+{
+  "method": "ditto-warmstart",
+  "source": "wdc/computers",
+  "target": "wdc/watches",
+  "k": 100,
+  "seed": 123,
+  "task": "wdc/watches-k100-s123",
+  "source_checkpoint": "/content/drive/MyDrive/slr-experiment/models/checkpoints/wdc/computers-kfull-s42/wdc/computers-kfull-s42/model.pt",
+  "hparams": {
+    "lm": "roberta",
+    "batch_size": 32,
+    "max_len": 256,
+    "lr": 3e-05,
+    "n_epochs": 15,
+    "fp16": false,
+    "da": "del",
+    "dk": "product",
+    "summarize": false
+  },
+  "returncode": 0,
+  "elapsed_sec": 1608.726315021515,
+  "best_epoch": 11,
+  "dev_f1": 0.7663456664977192,
+  "test_f1": 0.8576329331046312
+}

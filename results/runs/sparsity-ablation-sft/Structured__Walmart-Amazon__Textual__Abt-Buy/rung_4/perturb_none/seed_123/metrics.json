@@ -1,0 +1,18 @@
+{
+  "source_dataset": "Structured/Walmart-Amazon",
+  "target_dataset": "Textual/Abt-Buy",
+  "rung": 4,
+  "perturbation": "none",
+  "seed": 123,
+  "k": 100,
+  "retained_fields": [
+    "name"
+  ],
+  "truncate_title": true,
+  "task_name": "Textual__Abt-Buy__abl__rung4__none__s123__from__Structured__Walmart-Amazon",
+  "returncode": 0,
+  "elapsed_sec": 237.3332004547119,
+  "best_epoch": 11,
+  "dev_f1": 0.32116788321167883,
+  "test_f1": 0.36009732360097324
+}

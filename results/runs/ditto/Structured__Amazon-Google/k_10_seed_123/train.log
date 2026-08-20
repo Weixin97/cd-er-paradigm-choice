@@ -1,0 +1,39 @@
+# Command: python train_ditto.py --task Structured/Amazon-Google-k10-s123 --batch_size 32 --max_len 256 --lr 3e-05 --n_epochs 15 --lm roberta --run_id 123 --logdir /content/drive/MyDrive/slr-experiment/models/checkpoints/Structured/Amazon-Google-k10-s123 --save_model --da del --dk product
+# cwd: /content/drive/MyDrive/slr-experiment/ditto
+
+/usr/local/lib/python3.12/dist-packages/spacy/pipeline/lemmatizer.py:187: UserWarning: [W108] The rule-based lemmatizer did not find POS annotation for one or more tokens. Check that your pipeline includes components that assign token.pos, typically 'tagger'+'attribute_ruler' or 'morphologizer'.
+  warnings.warn(Warnings.W108)
+2026-06-22 03:50:58.478512: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+step: 0, loss: 0.6197710037231445
+epoch 1: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.6628982424736023
+epoch 2: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.6123017072677612
+epoch 3: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.6309342980384827
+epoch 4: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.600729763507843
+epoch 5: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.5934481620788574
+epoch 6: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.5937727689743042
+epoch 7: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.5976444482803345
+epoch 8: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.6112882494926453
+epoch 9: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.6139846444129944
+epoch 10: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.5869442224502563
+epoch 11: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.6423512697219849
+epoch 12: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.6294566988945007
+epoch 13: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.6195287704467773
+epoch 14: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537
+step: 0, loss: 0.5935567617416382
+epoch 15: dev_f1=0.185199841709537, f1=0.185199841709537, best_f1=0.185199841709537

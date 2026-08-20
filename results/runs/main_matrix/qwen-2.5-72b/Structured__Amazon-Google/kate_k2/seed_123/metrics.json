@@ -1,0 +1,20 @@
+{
+  "method": "kate_k2",
+  "backbone": "qwen-2.5-72b",
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "source_dataset": "Structured/Walmart-Amazon",
+  "target_dataset": "Structured/Amazon-Google",
+  "seed": 123,
+  "n_test_pairs": 2293,
+  "positive_rate": 0.1020497165285652,
+  "elapsed_sec": 2249.1034586429596,
+  "api_latency_sec": 2248.3050977159346,
+  "prompt_tokens_total": 730985,
+  "completion_tokens_total": 2293,
+  "prompt_tokens_mean": 318.78979502834716,
+  "completion_tokens_mean": 1.0,
+  "test_f1": 0.6699834162520729,
+  "test_precision": 0.5474254742547425,
+  "test_recall": 0.8632478632478633,
+  "returncode": 0
+}

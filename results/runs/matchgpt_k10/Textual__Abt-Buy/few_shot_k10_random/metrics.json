@@ -1,0 +1,16 @@
+{
+  "method": "matchgpt-together",
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "dataset": "Textual/Abt-Buy",
+  "setting": "few_shot_k10_random",
+  "k_demos": 10,
+  "demo_strategy": "random",
+  "n_test_pairs": 1916,
+  "positive_rate": 0.10751565762004175,
+  "use_their_data": false,
+  "elapsed_sec": 1362.7393181324005,
+  "test_f1": 0.796875,
+  "test_precision": 0.6666666666666666,
+  "test_recall": 0.9902912621359223,
+  "returncode": 0
+}

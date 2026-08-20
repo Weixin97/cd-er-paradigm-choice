@@ -1,0 +1,15 @@
+{
+  "method": "ditto-zeroshot",
+  "source": "Structured/Walmart-Amazon",
+  "target": "Textual/Abt-Buy",
+  "source_checkpoint": "/content/drive/MyDrive/slr-experiment/models/checkpoints/Structured/Walmart-Amazon-kfull-s42/Structured/Walmart-Amazon-kfull-s42/model.pt",
+  "lm": "roberta",
+  "max_len": 256,
+  "elapsed_sec": 42.51225781440735,
+  "n_examples": 1916,
+  "n_positive_labels": 206,
+  "n_positive_preds": 113,
+  "test_f1": 0.5454545454545454,
+  "test_precision": 0.7699115044247787,
+  "test_recall": 0.4223300970873786
+}

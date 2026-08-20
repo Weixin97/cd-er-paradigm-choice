@@ -1,0 +1,28 @@
+{
+  "method": "random_k2",
+  "backbone": "llama-3.3-70b",
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "source_dataset": "Structured/Walmart-Amazon",
+  "target_dataset": "Structured/Amazon-Google",
+  "rung": 0,
+  "perturbation": "none",
+  "kept_fields": [
+    "manufacturer",
+    "price",
+    "title"
+  ],
+  "title_truncated": false,
+  "seed": 123,
+  "n_test_pairs": 2293,
+  "positive_rate": 0.1020497165285652,
+  "elapsed_sec": 1595.4179904460907,
+  "api_latency_sec": 1595.3283088459984,
+  "prompt_tokens_total": 676170,
+  "completion_tokens_total": 4634,
+  "prompt_tokens_mean": 294.8844308765809,
+  "completion_tokens_mean": 2.020933275185347,
+  "test_f1": 0.6859903381642511,
+  "test_precision": 0.5503875968992248,
+  "test_recall": 0.9102564102564102,
+  "returncode": 0
+}

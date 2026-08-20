@@ -1,0 +1,16 @@
+{
+  "source_dataset": "wdc/computers",
+  "target_dataset": "wdc/watches",
+  "rung": 0,
+  "perturbation": "none",
+  "seed": 456,
+  "k": 100,
+  "retained_fields": "(all fields, no masking)",
+  "truncate_title": false,
+  "task_name": "wdc__watches__abl__rung0__none__s456__from__wdc__computers",
+  "returncode": 0,
+  "elapsed_sec": 1468.393779039383,
+  "best_epoch": 8,
+  "dev_f1": 0.7901639344262295,
+  "test_f1": 0.8571428571428571
+}

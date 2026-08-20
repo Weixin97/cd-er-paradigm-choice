@@ -1,0 +1,20 @@
+{
+  "method": "zero_shot",
+  "backbone": "qwen-2.5-72b",
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "source_dataset": "wdc/computers",
+  "target_dataset": "wdc/watches",
+  "seed": 42,
+  "n_test_pairs": 1012,
+  "positive_rate": 0.2707509881422925,
+  "elapsed_sec": 467.93662309646606,
+  "api_latency_sec": 467.9061829988568,
+  "prompt_tokens_total": 111396,
+  "completion_tokens_total": 1012,
+  "prompt_tokens_mean": 110.07509881422925,
+  "completion_tokens_mean": 1.0,
+  "test_f1": 0.9165048543689319,
+  "test_precision": 0.979253112033195,
+  "test_recall": 0.8613138686131386,
+  "returncode": 0
+}

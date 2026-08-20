@@ -1,0 +1,11 @@
+{
+  "method": "dader-mmd",
+  "src": "wa1",
+  "tgt": "da",
+  "beta_mmd": 0.1,
+  "num_epochs": 15,
+  "batch_size": 32,
+  "test_f1": 0.7094547591642323,
+  "returncode": 0,
+  "elapsed_sec": 8699.983271121979
+}

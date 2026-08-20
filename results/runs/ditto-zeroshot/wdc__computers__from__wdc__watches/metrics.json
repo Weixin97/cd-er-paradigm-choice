@@ -1,0 +1,15 @@
+{
+  "method": "ditto-zeroshot",
+  "source": "wdc/computers",
+  "target": "wdc/watches",
+  "source_checkpoint": "/content/drive/MyDrive/slr-experiment/models/checkpoints/wdc/computers-kfull-s42/wdc/computers-kfull-s42/model.pt",
+  "lm": "roberta",
+  "max_len": 256,
+  "elapsed_sec": 18.334219932556152,
+  "n_examples": 1012,
+  "n_positive_labels": 274,
+  "n_positive_preds": 355,
+  "test_f1": 0.8203497615262321,
+  "test_precision": 0.7267605633802817,
+  "test_recall": 0.9416058394160584
+}

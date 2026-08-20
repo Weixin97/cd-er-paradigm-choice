@@ -1,0 +1,23 @@
+{
+  "method": "ditto",
+  "dataset": "Textual/Abt-Buy",
+  "k": 10,
+  "seed": 123,
+  "task": "Textual/Abt-Buy-k10-s123",
+  "hparams": {
+    "lm": "roberta",
+    "batch_size": 32,
+    "max_len": 256,
+    "lr": 3e-05,
+    "n_epochs": 15,
+    "fp16": false,
+    "da": null,
+    "dk": null,
+    "summarize": false
+  },
+  "returncode": 0,
+  "elapsed_sec": 791.580411195755,
+  "best_epoch": 1,
+  "dev_f1": 0.1941564561734213,
+  "test_f1": 0.1941564561734213
+}

@@ -1,0 +1,18 @@
+{
+  "method": "llama-3.1-8b-lora",
+  "pair_key": "P2_Co_Wa",
+  "target_dataset": "wdc/watches-kfull-s42",
+  "k": 25,
+  "seed": 123,
+  "n_train_pairs": 25,
+  "n_test_pairs": 1012,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "num_epochs": 3,
+  "lr": 0.0002,
+  "test_f1": 0.879045996592845,
+  "precision": 0.8242811501597445,
+  "recall": 0.9416058394160584,
+  "train_time_sec": 59.19129753112793,
+  "infer_time_sec": 394.5595896244049
+}

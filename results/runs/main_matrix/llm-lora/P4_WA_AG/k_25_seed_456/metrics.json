@@ -1,0 +1,18 @@
+{
+  "method": "llama-3.1-8b-lora",
+  "pair_key": "P4_WA_AG",
+  "target_dataset": "Structured/Amazon-Google",
+  "k": 25,
+  "seed": 456,
+  "n_train_pairs": 25,
+  "n_test_pairs": 2293,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "num_epochs": 3,
+  "lr": 0.0002,
+  "test_f1": 0.1302681992337165,
+  "precision": 0.6296296296296297,
+  "recall": 0.07264957264957266,
+  "train_time_sec": 48.94714879989624,
+  "infer_time_sec": 810.473042011261
+}

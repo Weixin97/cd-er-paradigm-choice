@@ -1,0 +1,20 @@
+{
+  "source_dataset": "Structured/Walmart-Amazon",
+  "target_dataset": "Structured/Amazon-Google",
+  "rung": 0,
+  "perturbation": "none",
+  "seed": 123,
+  "k": 100,
+  "retained_fields": [
+    "manufacturer",
+    "price",
+    "title"
+  ],
+  "truncate_title": false,
+  "task_name": "Structured__Amazon-Google__abl__rung0__none__s123__from__Structured__Walmart-Amazon",
+  "returncode": 0,
+  "elapsed_sec": 474.3578598499298,
+  "best_epoch": 5,
+  "dev_f1": 0.5575757575757576,
+  "test_f1": 0.569620253164557
+}

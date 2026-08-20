@@ -1,0 +1,23 @@
+{
+  "method": "ditto",
+  "dataset": "Structured/Amazon-Google",
+  "k": 100,
+  "seed": 456,
+  "task": "Structured/Amazon-Google-k100-s456",
+  "hparams": {
+    "lm": "roberta",
+    "batch_size": 32,
+    "max_len": 256,
+    "lr": 3e-05,
+    "n_epochs": 15,
+    "fp16": false,
+    "da": "del",
+    "dk": "product",
+    "summarize": false
+  },
+  "returncode": 0,
+  "elapsed_sec": 576.4240202903748,
+  "best_epoch": 10,
+  "dev_f1": 0.2534435261707989,
+  "test_f1": 0.24633431085043989
+}

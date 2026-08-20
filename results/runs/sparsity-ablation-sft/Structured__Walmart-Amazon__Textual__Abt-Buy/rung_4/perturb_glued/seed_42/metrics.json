@@ -1,0 +1,18 @@
+{
+  "source_dataset": "Structured/Walmart-Amazon",
+  "target_dataset": "Textual/Abt-Buy",
+  "rung": 4,
+  "perturbation": "glued",
+  "seed": 42,
+  "k": 100,
+  "retained_fields": [
+    "name"
+  ],
+  "truncate_title": true,
+  "task_name": "Textual__Abt-Buy__abl__rung4__glued__s42__from__Structured__Walmart-Amazon",
+  "returncode": 0,
+  "elapsed_sec": 376.11430835723877,
+  "best_epoch": 12,
+  "dev_f1": 0.3572984749455338,
+  "test_f1": 0.3465553235908142
+}

@@ -1,0 +1,17 @@
+{
+  "backbone": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "provider": "huggingface-direct",
+  "pair": "wdc/computers -> wdc/watches",
+  "test_f1": 0.4275,
+  "test_precision": null,
+  "test_recall": null,
+  "hparams": {
+    "gamma": 0.01,
+    "alpha": 0.5,
+    "h": 50,
+    "k": 2,
+    "kfolds": 5
+  },
+  "cider_stratified": false,
+  "note": "Zhang et al.'s original pure top-K on same backbone"
+}

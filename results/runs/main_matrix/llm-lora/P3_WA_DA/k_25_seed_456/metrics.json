@@ -1,0 +1,18 @@
+{
+  "method": "llama-3.1-8b-lora",
+  "pair_key": "P3_WA_DA",
+  "target_dataset": "Structured/DBLP-ACM",
+  "k": 25,
+  "seed": 456,
+  "n_train_pairs": 25,
+  "n_test_pairs": 2473,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "num_epochs": 3,
+  "lr": 0.0002,
+  "test_f1": 0.9243697478991598,
+  "precision": 0.8661417322834646,
+  "recall": 0.990990990990991,
+  "train_time_sec": 75.66556143760681,
+  "infer_time_sec": 1214.674031496048
+}

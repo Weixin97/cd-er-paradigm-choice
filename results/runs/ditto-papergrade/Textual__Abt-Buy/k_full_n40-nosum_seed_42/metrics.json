@@ -1,0 +1,24 @@
+{
+  "method": "ditto-papergrade",
+  "dataset": "Textual/Abt-Buy",
+  "k": "full",
+  "seed": 42,
+  "task": "Textual/Abt-Buy-kfull-n40-nosum-s42",
+  "tag": "n40-nosum",
+  "hparams": {
+    "lm": "roberta",
+    "batch_size": 32,
+    "max_len": 256,
+    "lr": 3e-05,
+    "n_epochs": 40,
+    "fp16": false,
+    "da": "del",
+    "dk": "product",
+    "summarize": false
+  },
+  "returncode": 0,
+  "elapsed_sec": 21810.44891190529,
+  "best_epoch": 18,
+  "dev_f1": 0.9072681704260651,
+  "test_f1": 0.8980582524271845
+}

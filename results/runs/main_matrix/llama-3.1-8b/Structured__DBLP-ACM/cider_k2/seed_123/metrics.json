@@ -1,0 +1,20 @@
+{
+  "method": "cider_k2",
+  "backbone": "llama-3.1-8b",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "source_dataset": "Structured/Walmart-Amazon",
+  "target_dataset": "Structured/DBLP-ACM",
+  "seed": 123,
+  "n_test_pairs": 2473,
+  "positive_rate": 0.17953902143145978,
+  "elapsed_sec": 1114.6454231739044,
+  "api_latency_sec": 1113.7263080600078,
+  "prompt_tokens_total": 857646,
+  "completion_tokens_total": 11059,
+  "prompt_tokens_mean": 346.80388192478773,
+  "completion_tokens_mean": 4.471896482005661,
+  "test_f1": 0.6135922330097088,
+  "test_precision": 0.5392491467576792,
+  "test_recall": 0.7117117117117117,
+  "returncode": 0
+}

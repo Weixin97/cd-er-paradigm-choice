@@ -1,0 +1,23 @@
+{
+  "method": "ditto",
+  "dataset": "Dirty/DBLP-ACM",
+  "k": 50,
+  "seed": 123,
+  "task": "Dirty/DBLP-ACM-k50-s123",
+  "hparams": {
+    "lm": "roberta",
+    "batch_size": 32,
+    "max_len": 256,
+    "lr": 3e-05,
+    "n_epochs": 15,
+    "fp16": false,
+    "da": null,
+    "dk": null,
+    "summarize": false
+  },
+  "returncode": 0,
+  "elapsed_sec": 1216.617919921875,
+  "best_epoch": 5,
+  "dev_f1": 0.33537832310838445,
+  "test_f1": 0.3200589970501475
+}

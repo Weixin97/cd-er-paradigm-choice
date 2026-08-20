@@ -1,0 +1,26 @@
+{
+  "method": "random_k2",
+  "backbone": "llama-3.3-70b",
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "source_dataset": "Structured/Walmart-Amazon",
+  "target_dataset": "Textual/Abt-Buy",
+  "rung": 4,
+  "perturbation": "glued",
+  "kept_fields": [
+    "name"
+  ],
+  "title_truncated": true,
+  "seed": 42,
+  "n_test_pairs": 1916,
+  "positive_rate": 0.10751565762004175,
+  "elapsed_sec": 1557.785049200058,
+  "api_latency_sec": 1557.73057921099,
+  "prompt_tokens_total": 532598,
+  "completion_tokens_total": 4115,
+  "prompt_tokens_mean": 277.97390396659705,
+  "completion_tokens_mean": 2.1477035490605427,
+  "test_f1": 0.2125984251968504,
+  "test_precision": 0.5625,
+  "test_recall": 0.13106796116504854,
+  "returncode": 0
+}

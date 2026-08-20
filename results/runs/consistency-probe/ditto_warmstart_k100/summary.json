@@ -1,0 +1,5 @@
+{
+  "violation_rate_by_construction": 0.0,
+  "justification": "Union-find on threshold-passing edges produces a transitive partition; for any triangle (A,B,C) the edge-sum of the derived pairwise decisions is either 0 (records in different clusters) or 3 (records in the same cluster). No triangle can have edge-sum = 2 by construction.",
+  "note": "To measure Dittos own per-pair decisions (without the union-find step) as a separate ablation, run Ditto warm-start K=100 on each edge and aggregate \u2014 this shows the per-pair encoder produces some triangle violations before clustering enforces transitivity."
+}

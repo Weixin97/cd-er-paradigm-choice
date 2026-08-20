@@ -1,0 +1,19 @@
+{
+  "source_dataset": "Structured/Walmart-Amazon",
+  "target_dataset": "Structured/DBLP-ACM",
+  "rung": 2,
+  "perturbation": "none",
+  "seed": 456,
+  "k": 100,
+  "retained_fields": [
+    "authors",
+    "title"
+  ],
+  "truncate_title": false,
+  "task_name": "Structured__DBLP-ACM__abl__rung2__none__s456__from__Structured__Walmart-Amazon",
+  "returncode": 0,
+  "elapsed_sec": 1421.737096786499,
+  "best_epoch": 11,
+  "dev_f1": 0.8767416934619507,
+  "test_f1": 0.8910891089108911
+}

@@ -1,0 +1,23 @@
+{
+  "method": "ditto",
+  "dataset": "wdc/watches",
+  "k": 25,
+  "seed": 456,
+  "task": "wdc/watches-k25-s456",
+  "hparams": {
+    "lm": "roberta",
+    "batch_size": 32,
+    "max_len": 256,
+    "lr": 3e-05,
+    "n_epochs": 15,
+    "fp16": false,
+    "da": null,
+    "dk": null,
+    "summarize": false
+  },
+  "returncode": 0,
+  "elapsed_sec": 1349.974198102951,
+  "best_epoch": 1,
+  "dev_f1": 0.3209957418932198,
+  "test_f1": 0.4261275272161742
+}

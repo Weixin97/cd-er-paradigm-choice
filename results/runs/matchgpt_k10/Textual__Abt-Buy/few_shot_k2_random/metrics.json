@@ -1,0 +1,17 @@
+{
+  "method": "matchgpt-together",
+  "provider": "together",
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "source_dataset": "Structured/Walmart-Amazon",
+  "target_dataset": "Textual/Abt-Buy",
+  "setting": "few_shot_k2_random",
+  "k_demos": 2,
+  "demo_strategy": "random",
+  "n_test_pairs": 1916,
+  "positive_rate": 0.10751565762004175,
+  "elapsed_sec": 1792.9798526763916,
+  "test_f1": 0.9274004683840751,
+  "test_precision": 0.8959276018099548,
+  "test_recall": 0.9611650485436893,
+  "returncode": 0
+}

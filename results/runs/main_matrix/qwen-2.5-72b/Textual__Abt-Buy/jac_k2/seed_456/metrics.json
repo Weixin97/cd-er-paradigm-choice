@@ -1,0 +1,20 @@
+{
+  "method": "jac_k2",
+  "backbone": "qwen-2.5-72b",
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "source_dataset": "Structured/Walmart-Amazon",
+  "target_dataset": "Textual/Abt-Buy",
+  "seed": 456,
+  "n_test_pairs": 1916,
+  "positive_rate": 0.10751565762004175,
+  "elapsed_sec": 2364.74742102623,
+  "api_latency_sec": 2060.825360399278,
+  "prompt_tokens_total": 856248,
+  "completion_tokens_total": 1916,
+  "prompt_tokens_mean": 446.89352818371606,
+  "completion_tokens_mean": 1.0,
+  "test_f1": 0.9029126213592235,
+  "test_precision": 0.9029126213592233,
+  "test_recall": 0.9029126213592233,
+  "returncode": 0
+}

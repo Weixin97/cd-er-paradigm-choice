@@ -1,0 +1,22 @@
+# Local EDA requirements (no GPU needed).
+# For Colab experiment deps, see scripts/setup_colab.sh — Colab has torch
+# pre-installed and we install the rest there.
+
+# Data
+pandas>=2.0
+numpy>=1.24
+pyyaml>=6.0
+
+# Analysis & plotting
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+
+# For MMD/PAD (only needed if you run compute_mmd locally)
+torch>=2.0
+transformers>=4.30
+
+# Notebooks
+jupyter
+ipykernel
+nbformat

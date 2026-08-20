@@ -1,0 +1,16 @@
+{
+  "method": "matchgpt-together",
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "dataset": "Structured/Amazon-Google",
+  "setting": "zero_shot",
+  "k_demos": 0,
+  "demo_strategy": "n/a",
+  "n_test_pairs": 2293,
+  "positive_rate": 0.1020497165285652,
+  "use_their_data": false,
+  "elapsed_sec": 1749.859081029892,
+  "test_f1": 0.6509433962264151,
+  "test_precision": 0.5149253731343284,
+  "test_recall": 0.8846153846153846,
+  "returncode": 0
+}

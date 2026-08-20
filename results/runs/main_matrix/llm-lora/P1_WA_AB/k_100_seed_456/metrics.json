@@ -1,0 +1,18 @@
+{
+  "method": "llama-3.1-8b-lora",
+  "pair_key": "P1_WA_AB",
+  "target_dataset": "Textual/Abt-Buy",
+  "k": 100,
+  "seed": 456,
+  "n_train_pairs": 100,
+  "n_test_pairs": 1916,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "num_epochs": 3,
+  "lr": 0.0002,
+  "test_f1": 0.7824175824175823,
+  "precision": 0.714859437751004,
+  "recall": 0.8640776699029126,
+  "train_time_sec": 338.00094985961914,
+  "infer_time_sec": 1003.6447746753693
+}

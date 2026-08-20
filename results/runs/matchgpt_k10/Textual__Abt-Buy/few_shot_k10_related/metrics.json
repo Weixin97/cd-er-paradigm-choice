@@ -1,0 +1,20 @@
+{
+  "method": "matchgpt-together",
+  "provider": "together",
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "source_dataset": "Structured/Walmart-Amazon",
+  "target_dataset": "Textual/Abt-Buy",
+  "setting": "few_shot_k10_related",
+  "k_demos": 10,
+  "demo_strategy": "related",
+  "sampler": "sbert_cosine_top_k",
+  "sbert_model": "sentence-transformers/all-mpnet-base-v2",
+  "n_test_pairs": 1916,
+  "positive_rate": 0.10751565762004175,
+  "demo_positive_rate": 0.10939457202505219,
+  "elapsed_sec": 6181.949617624283,
+  "test_f1": 0.9090909090909091,
+  "test_precision": 0.9203980099502488,
+  "test_recall": 0.8980582524271845,
+  "returncode": 0
+}

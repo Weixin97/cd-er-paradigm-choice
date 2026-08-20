@@ -1,0 +1,20 @@
+{
+  "method": "random_k2",
+  "backbone": "llama-3.1-8b",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "source_dataset": "wdc/computers",
+  "target_dataset": "wdc/watches",
+  "seed": 456,
+  "n_test_pairs": 1012,
+  "positive_rate": 0.2707509881422925,
+  "elapsed_sec": 373.9218225479126,
+  "api_latency_sec": 373.89148567297525,
+  "prompt_tokens_total": 326863,
+  "completion_tokens_total": 3434,
+  "prompt_tokens_mean": 322.9871541501976,
+  "completion_tokens_mean": 3.3932806324110674,
+  "test_f1": 0.5127238454288408,
+  "test_precision": 0.34561626429479037,
+  "test_recall": 0.9927007299270073,
+  "returncode": 0
+}

@@ -1,0 +1,15 @@
+services:
+  analysis:
+    build: .
+    container_name: analysis
+    ports:
+      - "8892:8888"   # Jupyter Lab
+    volumes:
+      # Mount the whole repo into the container — no rebuild on code change
+      - .:/home/jovyan/work:Z
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - GRANT_SUDO=yes
+      - REPO_ROOT=/home/jovyan/work   # so config/config.py resolves correctly
+    user: root
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''

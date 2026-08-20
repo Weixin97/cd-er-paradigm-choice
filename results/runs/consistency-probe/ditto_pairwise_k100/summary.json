@@ -1,0 +1,38 @@
+{
+  "per_seed": {
+    "42": {
+      "n_total_evaluated": 141,
+      "n_conditioned": 132,
+      "n_violation": 29,
+      "n_full_match": 84,
+      "unresolved_triangles": 0,
+      "violation_rate": 0.2196969696969697
+    },
+    "123": {
+      "n_total_evaluated": 141,
+      "n_conditioned": 132,
+      "n_violation": 38,
+      "n_full_match": 84,
+      "unresolved_triangles": 0,
+      "violation_rate": 0.2878787878787879
+    },
+    "456": {
+      "n_total_evaluated": 141,
+      "n_conditioned": 133,
+      "n_violation": 33,
+      "n_full_match": 75,
+      "unresolved_triangles": 0,
+      "violation_rate": 0.24812030075187969
+    }
+  },
+  "aggregate_violation_rate": 0.2518986861092124,
+  "aggregate_sd": 0.03424758720809407,
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "source": "wdc/computers",
+  "target": "wdc/watches",
+  "k": 100
+}

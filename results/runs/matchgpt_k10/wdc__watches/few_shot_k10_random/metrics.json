@@ -1,0 +1,16 @@
+{
+  "method": "matchgpt-together",
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "dataset": "wdc/watches",
+  "setting": "few_shot_k10_random",
+  "k_demos": 10,
+  "demo_strategy": "random",
+  "n_test_pairs": 1012,
+  "positive_rate": 0.2707509881422925,
+  "use_their_data": false,
+  "elapsed_sec": 713.07146525383,
+  "test_f1": 0.8180451127819549,
+  "test_precision": 0.6956521739130435,
+  "test_recall": 0.9927007299270073,
+  "returncode": 0
+}

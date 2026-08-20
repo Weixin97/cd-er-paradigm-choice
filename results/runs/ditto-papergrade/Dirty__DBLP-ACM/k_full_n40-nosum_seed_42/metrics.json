@@ -1,0 +1,27 @@
+{
+  "method": "ditto-papergrade",
+  "dataset": "Dirty/DBLP-ACM",
+  "k": "full",
+  "seed": 42,
+  "task": "Dirty__DBLP-ACM-kfull-n40-nosum-s42",
+  "tag": "n40-nosum",
+  "hparams": {
+    "lm": "roberta",
+    "batch_size": 32,
+    "max_len": 180,
+    "lr": 3e-05,
+    "n_epochs": 40,
+    "fp16": false,
+    "da": "del",
+    "dk": null,
+    "summarize": false
+  },
+  "returncode": 0,
+  "elapsed_sec": 97.9612786769867,
+  "best_epoch": 11,
+  "dev_f1": 0.9932126696832579,
+  "test_f1": 0.9898305084745763,
+  "elapsed_sec_note": "training elapsed measured separately; ~5-6 hr on T4",
+  "test_f1_note": "best_f1 across 40 epochs from Ditto train_ditto.py log (peak at epoch 6; dev-selected model at epoch 11 gave test f1=0.9898)",
+  "source": "recovered from training stdout"
+}
