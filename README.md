@@ -57,23 +57,7 @@ python -c "import config.config; print('OK')"
 ## Reproducing paper results
 
 Each paper section maps to one or more notebooks in `notebook/`. See
-`notebook/README.md` for the full index. A minimal reproduction flow:
-
-1. **CIDER reimplementation validation** (Sec. 3.3, Supplementary A):
-   `notebook/01_cider_reimplementation.ipynb`
-   Expected wall-clock: ~1 hour on Colab Free tier.
-
-2. **Main LLM paradigm matrix** (§4.1–§4.2):
-   `notebook/02_llm_paradigm_matrix.ipynb`
-   Expected wall-clock: ~12 hours for the full 3×4×4×3 matrix on DeepInfra
-   serverless. Requires DeepInfra API key.
-
-3. **Regenerate figures** from existing measurements:
-   ```bash
-   python -m src.analysis.figures --all
-   ```
-   Reads `results/runs/**/metrics.json` and writes PDFs and PNGs to
-   `results/figures/`.
+`notebook/README.md` for the full index. 
 
 ## Data sources
 
@@ -108,11 +92,6 @@ Copy `.env.example` to `.env` and fill in.
   variant to handle the >99%-negative candidate pool that occurs on
   extreme cross-domain source–target combinations. Justified in
   `docs/SUPPLEMENTARY.pdf` Section A.2.
-
-## Citation
-
-*Anonymised for review. Citation information will be provided upon
-acceptance.*
 
 ## License
 
