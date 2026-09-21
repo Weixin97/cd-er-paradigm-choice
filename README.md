@@ -8,7 +8,7 @@ Reproducibility artifact for the paper:
 
 This repository contains the source code, per-cell measurements, and
 supplementary appendices required to reproduce every result reported in
-the paper. Author information has been removed for double-blind review.
+the paper. 
 
 ## Repository layout
 
