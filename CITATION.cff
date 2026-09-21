@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the associated paper (see repository README)."
+title: "Reproducibility Artifact for 'Paradigm Choice for Cross-Domain Entity Resolution under Attribute Sparsity: A Quality, Cost, Latency, Consistency Study'"
+authors:
+  - given-names: "Weixin"
+    family-names: "Low"
+    affiliation: "Universiti Malaya"
+  - given-names: "Wei Shiung"
+    family-names: "Liew"
+    affiliation: "Universiti Malaya"
+  - given-names: "Chu Kiong"
+    family-names: "Loo"
+    affiliation: "Universiti Malaya"
+version: "1.0"
+date-released: "2026-09-21"
+license: MIT
+repository-code: "https://github.com/Weixin97/cd-er-paradigm-choice"
+keywords:
+  - "entity resolution"
+  - "large language models"
+  - "cross-domain transfer"
+  - "reproducibility artifact"
