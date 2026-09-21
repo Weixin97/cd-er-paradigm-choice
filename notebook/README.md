@@ -9,7 +9,7 @@ open the corresponding notebook and run all cells.
 | Notebook | Paper section | What it does |
 |---|---|---|
 | `01_cider_reimplementation.ipynb` | Sec. 3.3, Supplementary A | Reimplements CIDER's three-stage framework and validates against Zhang et al.'s reported F1 on the CO → WT pair (Zhang et al. 2025, Information Fusion 117:102816). |
-| `02_llm_paradigm_matrix.ipynb` | Sec. 4.1–4.2 | Main LLM matrix: 3 backbones × 4 demonstration-selection methods × 4 cross-domain pairs × 3 seeds. |
+| `02_llm_paradigm_matrix.ipynb` | Sec. 4.1–4.2 | Main LLM matrix: 3 backbones × 4 demonstration-selection methods × 5 cross-domain pairs × 3 seeds. |
 | `03_statistical_analysis.ipynb` | Sec. 4.1, Table 5 | Wilcoxon signed-rank tests with Bonferroni correction across the LLM matrix. |
 | `04_dader_baseline.ipynb` | Sec. 4.3, Table 6 | DADER domain-adversarial baseline (zero target labels). |
 | `05_schema_poverty_ablation_llm.ipynb` | Sec. 4.6, Table 12 (LLM column) | LLM K=2 F1 across the mutual-information-ranked attribute-drop ladder. |

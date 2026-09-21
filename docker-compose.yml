@@ -5,7 +5,7 @@ services:
     ports:
       - "8892:8888"   # Jupyter Lab
     volumes:
-      # Mount the whole repo into the container — no rebuild on code change
+      # Mount the whole repo into the container
       - .:/home/jovyan/work:Z
     environment:
       - JUPYTER_ENABLE_LAB=yes
