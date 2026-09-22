@@ -96,3 +96,6 @@ Copy `.env.example` to `.env` and fill in.
 ## License
 
 MIT
+
+[![DOI](https://zenodo.org/badge/1331469968.svg)](https://doi.org/10.5281/zenodo.22895537)
+
